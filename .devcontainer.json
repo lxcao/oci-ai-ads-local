@@ -11,7 +11,8 @@
   },
   "mounts": [
     "source=/Users/caolingxin/.oci,target=/home/datascience/.oci,type=bind",
-    "source=/Users/caolingxin/.conda/envs,target=/opt/conda/envs,type=bind"
+    "source=/Users/caolingxin/.conda/envs,target=/opt/conda/envs,type=bind",
+    "source=/Users/caolingxin/.ads_ops,target=/home/datascience/.ads_ops,type=bind"
   ],
   "workspaceMount": "source=/Users/caolingxin/Documents/workspaces/oci-projects/oci-ai-ads-local,target=/home/datascience/oci-ai-ads-local,type=bind",
   "workspaceFolder": "/home/datascience",
